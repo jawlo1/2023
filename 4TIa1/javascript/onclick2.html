@@ -1,0 +1,14 @@
+<H1>Dynamiczne przypisanie obsługi zdarzenia</H1>
+
+<button id="myButton">Wyświetl datę</button>
+<p id="demo"></p>
+
+<script>
+    function displayDate(){
+        document.querySelector("#demo").innerHTML=Date();
+    }
+    
+    let przycisk=document.querySelector("#myButton");
+    przycisk.onclick=displayDate;
+    
+</script>

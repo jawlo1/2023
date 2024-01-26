@@ -1,0 +1,10 @@
+<h1>Wyświetlenie nazwy miesiąca (pl)</h1>
+<script>
+    const miesiac=['Styczeń','Luty','Marzec',
+                  'Kwiecień','Maj','Czerwiec',
+                  'Lipiec','Sierpień','Wrzesień',
+                  'Październik','Listopad', 'Grudzień'];
+    let teraz = new Date();
+    let nazwaMiesiaca = miesiac[ teraz.getMonth()];
+    document.write( nazwaMiesiaca );
+</script>

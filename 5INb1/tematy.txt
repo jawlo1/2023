@@ -1,0 +1,12 @@
+24.10.2023 - MySQL - delete, update
+20.10.2023 - MySQL- insert
+17.10.2023 - obiektowoœæ
+6.10.2023 - sesje, cookie, wyra¿enia reg wyszukiwanie daty
+3.10.2023 - date, mktime
+29.09.2023 - git
+29.09.2023 - break, continue, goto
+22.09.2023 - pêtla while, do...while, funkcje
+19.09.2023 - operatory, if, switch
+15.09.2023 - tablice wielowymiarowe
+8.9.2023 - liczby ca³kowite, rzeczywiste
+8.09.2023 - funkcje do stringów

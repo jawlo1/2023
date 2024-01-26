@@ -1,0 +1,21 @@
+<script>
+let wynik=0;
+let liczba1=Number(prompt("Podaj pierwszą liczbę"));
+let liczba2=Number(prompt("Podaj drugą liczbę"));
+let operacja=prompt("wybierz rodzaj operacji");
+switch( operacja ){
+        case "+":
+            wynik = liczba1+liczba2;
+            break;
+        case "-":
+            wynik = liczba1-liczba2;
+            break;
+        case "*":
+            wynik = liczba1*liczba2;
+            break;
+        case "/":
+            wynik = liczba1/liczba2;
+            break;
+    }
+    document.write( "wynik=" +wynik );
+</script>

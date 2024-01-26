@@ -1,0 +1,11 @@
+kwerenda 1:
+INSERT into rezerwacje(`nr_stolika`,`data_rez`,`liczba_osob`,`telefon`) VALUES( 1, "2017-07-04", 4, 111222333); 
+
+kwerenda 2:
+SELECT nazwa, cena from dania where typ = 2; 
+
+kwerenda 3:
+SELECT nazwa from dania WHERE typ=3 and cena<15; 
+
+kwerenda 4:
+UPDATE pracownicy set stanowisko=4 WHERE stanowisko=3; 

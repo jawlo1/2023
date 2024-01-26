@@ -1,0 +1,14 @@
+25.10.2023 - MySQL - $_POST, $_GET
+24.10.2023 - MySQL delete
+18.10.2023 - obiektowoœæ - dziedziczenie
+10.10.2023 - reg - data
+5.10.2023 - cookie
+4.10.2023 - sesje
+28.09.2023 - git
+26.09.2023 - funkcje plikowe
+21.09.2023 - funkcje
+19.09.2023 - operatory
+14.09.2023 - array_unshift
+13.09.2023 - tablice
+8.9.2023 - liczby ca³kowite, rzeczywiste
+8.9.2023 - zmienne, zmienne statyczne, sta³e, sta³e

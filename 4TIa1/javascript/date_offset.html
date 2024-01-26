@@ -1,0 +1,18 @@
+<h1>Tworzenie daty przesuniętej o jakiś czas</h1>
+
+<p>Kolejność parametrów:</p>
+<p>Date(rok,miesiąc,dzień,godzina,
+        minuta, sekunda,milisekundy)</p>
+
+<script>
+    let matura= new Date(2024,04,04,12,0,0,0);
+    let maturaMS = matura.getTime();  //w milisek.
+    let stoDniMS= 100*24*60*60*1000;  // w milisek.
+    let studniowka=new Date( maturaMS-stoDniMS );
+    let dzien=studniowka.getDate();    
+    let miesiac=studniowka.getMonth()+1;    
+    let rok=studniowka.getFullYear();    
+    
+    document.write( "Studniówka: " + dzien + "." +
+                    miesiac + "." + rok );
+</script>

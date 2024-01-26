@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formatowanie tekstu</title>
+    </head>
+    <body>
+        <p>tekst <b>pogrubiony</b>&nbsp;-znacznik &lt;b&gt; </p>
+        <p>tekst <strong>strong</strong>&nbsp;-znacznik &lt;strong&gt; dla ważanych słów</p> 
+        
+        
+        
+        <p>tekst <i>italic</i>&nbsp;-znacznik &lt;i&gt; dla ctytatów, nazw własnych</p> 
+        
+        
+        
+        
+        
+        <p>tekst <mark>zaznaczony</mark>&nbsp;-znacznik 
+            
+            &lt;mark&gt; 
+            
+            dla zaznaczenia fragmentu</p>
+        
+        
+        
+        
+        
+<p>tekst <small>małe literki</small>&nbsp;-znacznik 
+            
+            &lt;small&gt; 
+            
+            dla małych literek</p>
+        
+
+        
+<p>tekst <del>skasowany</del>&nbsp;-znacznik 
+            
+            &lt;del&gt; 
+            
+            dla tekstów wykreślonych</p>
+
+        
+<p>tekst <ins>dodany</ins>&nbsp;-znacznik 
+            
+            &lt;ins&gt; 
+            
+            dla tekstów dodanych</p>
+        
+        
+        
+        
+        
+        
+        
+<p>tekst <sup>superscript</sup>&nbsp;-znacznik 
+            
+&lt;sup&gt; 
+            
+indeks górny m<sup>2</sup></p>
+
+        
+<p>tekst <sub>subscript</sub>&nbsp;-znacznik 
+            
+&lt;sub&gt; 
+            
+indeks dolny H<sub>2</sub>O</p>
+
+        
+        
+    </body>
+</html>

@@ -1,0 +1,18 @@
+<div id="div1">
+    <p id="p1">Pierwszy akapit</p>
+    <p id="p2">drgi akapit</p>
+</div>
+
+<script>
+    let akapit=document.createElement("p");
+    let content=document.createTextNode("Nowy akapit");
+    akapit.appendChild(content);
+    
+    let akapit2=document.createElement("p");
+    let content2=document.createTextNode("Nowy akapit 2");
+    akapit2.appendChild(content2);
+    
+    let position=document.querySelector("#div1");
+    position.appendChild(akapit);
+    position.appendChild(akapit2);
+</script>

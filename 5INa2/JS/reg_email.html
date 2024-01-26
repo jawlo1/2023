@@ -1,0 +1,8 @@
+<h3>Wyrażenie regularne - adres email</h3>
+
+<script>
+    const tekst="adres email: john1.fasola2@in.pl";
+    var wzorzec=/[\w_\.-]+@([-A-z0-9]+\.)+[A-z]/;
+    let pozycja=tekst.search(wzorzec);
+    document.write( tekst.slice(pozycja) );
+</script>

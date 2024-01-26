@@ -1,0 +1,12 @@
+<h1>Zdarzenie onchange</h1>
+
+<p>Wpisz swoje imie</p>
+<input type="text" id="fname" onchange="change()"><br>
+<input type="text">
+
+<script>
+    function change(){
+        let pole=document.querySelector("#fname");
+        pole.value=pole.value.toUpperCase();
+    }
+</script>

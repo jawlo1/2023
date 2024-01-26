@@ -1,0 +1,25 @@
+<h1>Klasa: user{firstName,lastName,age,fullName()}</h1>
+<p>Dwa obiekty tej klasy</p>
+<script>
+        class user{
+        constructor( firstName,lastName,age){
+            this.firstName=firstName;
+            this.lastName=lastName;
+            this.age=age;
+        }
+        fullName(){
+                    return this.firstName+ " "+ this.lastName;
+                }
+    }
+    
+    let uczen= new user("Jasio","Fasola",15);
+    uczen.nationality="Polish";
+    console.log( uczen.firstName );
+    console.log(uczen.nationality);
+    
+</script>
+
+
+
+
+

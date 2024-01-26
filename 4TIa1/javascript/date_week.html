@@ -1,0 +1,10 @@
+<h1>Wyświetlenie nazwy dnia tygodnia</h1>
+<script>
+    const week=['Niedziela','Poniedziałek',
+               'Wtorek','Środa','Czwartek',
+               'Piątunio','Sobota','Niedziela'];
+    
+    let teraz = new Date();
+    let dzien = week[ teraz.getDay()];
+    document.write( dzien );
+</script>

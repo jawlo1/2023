@@ -1,0 +1,14 @@
+<h1>Zdarzenie onchange</h1>
+<label>Wpisz swoje imię
+    <input type="text" id="pole1" onchange="eventOnChange()">
+</label><br/>
+<label>
+    <input type="text" id="pole2">
+</label>
+
+<script>
+    function eventOnChange(){
+        let p2=document.querySelector("#pole2");
+        p2.value=document.querySelector("#pole1").value;
+    }
+</script>

@@ -1,0 +1,16 @@
+<h1>Wstawianie nowego elementu przed innym</h1>
+<div id="div1">
+    <p id="p1">Pierwszy akapit</p>
+    <p id="p2">drgi akapit</p>
+</div>
+
+<script>
+    let akapit=document.createElement("p");
+    let content=document.createTextNode("Nowy akapit");
+    akapit.appendChild(content);
+       
+    let position=document.querySelector("#div1");
+    let before=document.querySelector("#p1");
+    position.insertBefore(akapit,before);
+    
+</script>

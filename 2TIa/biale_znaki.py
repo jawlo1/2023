@@ -1,0 +1,1 @@
+print("Języki: \n\t-Python,\n\t-C,\n\t-Javascript")

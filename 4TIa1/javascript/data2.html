@@ -1,0 +1,13 @@
+<h1>Generowanie daty przesuniętej o tydzień</h1>
+<script>
+    const teraz = new Date();
+    let teraz_ms = teraz.getTime(); // w msek
+    const tydzien_ms = 7*24*60*60*1000;
+    let tydzien_pozniej= new Date( teraz_ms + 
+                                  tydzien_ms );
+    document.write( tydzien_pozniej.getDate() 
+                   + '.' +
+                  (tydzien_pozniej.getMonth()+1)
+                   + '.' +
+                  tydzien_pozniej.getFullYear()); 
+</script>

@@ -1,0 +1,26 @@
+6.11.2023 - walidacja formularzy
+
+30.10.2023 - radio button
+27.10.2023 - GET, POST
+27.10.2023 - Mysql - generowanie tabeli
+25.10.2023 - MySQL - insert
+20.10.2023 - obiektowoœæ - dziedziczenie
+17.10.2023 - obiektowoœæ
+1610.2023 - 
+11.10.2023 - reg - data
+10.10.2023 - reg
+9.10.2023 - cookie
+6.10.2023 - fwrite,  time,date, session
+4.10.2023 - fread , git
+3.10.2023 - fopen
+2.10.2023 - funkcje anonimowe
+29.9.2023 - git
+26.09.2023 - break, 
+25.09.2023 pêtla while, do..while
+22.09.2022 - incrementacja, if, switch
+20.09.2023  - array_unshift
+19.09.2023 - sortowanie,
+13.09.2023 - tablice
+11.9.2023 - zmienne statyczne
+8.9.2023 - liczby ca³kowite, rzeczywiste
+8.9.2023 - printf

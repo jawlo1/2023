@@ -1,0 +1,31 @@
+<p>1. Utwórz dowolny string. Utwórz string bêd¹cy fragmentem wczeœniejszego tekstu (od 5 do 10znaku).
+</p>
+<p>2. Utwórz string z trzema nazwami samochodów. Zamieñ jedn¹ nazwê samochodu na inn¹.</p>
+<p>3. Przekszta³æ string "Apple, Banana, Kiwi" na listê elementów</p>
+<p>4. Utwórz listê trzech imion. Napisz skrypt, który podaje na której pozycji znajduje siê wybrane imiê.</p>
+<p>5. Mamy tablicê liczb [1,1]. Wstaw na drug¹ i trzeci¹  pozycjê liczby 2 i 3</p>
+<script>
+    let text = "Apple, Banana, Kiwi";
+    let part = text.slice(4,10);
+    console.log( text );
+    console.log( part );
+
+    let text2 = "Audi, Toyota, BMW";
+    let newText=text2.replace("BMW","Merc");
+    console.log( text2 );
+    console.log( newText );
+    
+    let text3 = "Apple, Banana, Kiwi";
+    let lista = text3.split( ", " );
+    console.log( lista );
+        
+    let text4 = "Ala, Ewa, Ola";
+    let szukany = "Ola";
+    let pozycja = text4.search( szukany );
+    console.log( pozycja );
+
+    var tablica = [1,1];
+    document.write('tablica zawiera:' + tablica +"<br>");
+    tablica.splice( 1,0,2,3 );
+    document.write('tablica zawiera:' + tablica );
+</script>
